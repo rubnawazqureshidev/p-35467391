@@ -1622,6 +1622,10 @@ html, body {
     width: 20rem;
   }
 
+  .lg\:w-2\/4{
+    width: 50%;
+  }
+
   .lg\:flex-nowrap{
     flex-wrap: nowrap;
   }
