@@ -669,6 +669,11 @@ video {
   margin-right: auto;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-20{
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -679,14 +684,9 @@ video {
   margin-bottom: 1.75rem;
 }
 
-.mx-20{
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .-mt-40{
@@ -875,10 +875,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .overflow-hidden{
   overflow: hidden;
 }
@@ -962,6 +958,11 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-red-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
 .bg-slate-600{
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
@@ -975,11 +976,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-contain{
@@ -1031,6 +1027,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-14{
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -1051,11 +1052,6 @@ video {
   padding-bottom: 21px;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -1068,8 +1064,8 @@ video {
   padding-inline-end: 2rem;
 }
 
-.pr-40{
-  padding-right: 10rem;
+.pr-0{
+  padding-right: 0px;
 }
 
 .ps-1{
@@ -1080,8 +1076,8 @@ video {
   padding-inline-start: 1.25rem;
 }
 
-.pr-0{
-  padding-right: 0px;
+.pt-20{
+  padding-top: 5rem;
 }
 
 .text-center{
@@ -1091,11 +1087,6 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl{
@@ -1292,21 +1283,6 @@ html, body {
     padding-right: 10rem;
   }
 
-  .md\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
@@ -1314,10 +1290,6 @@ html, body {
 }
 
 @media (min-width: 1024px){
-  .lg\:-top-48{
-    top: -12rem;
-  }
-
   .lg\:mt-28{
     margin-top: 7rem;
   }
@@ -1363,9 +1335,9 @@ html, body {
     padding-right: 5rem;
   }
 
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-base{
@@ -1376,15 +1348,5 @@ html, body {
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
